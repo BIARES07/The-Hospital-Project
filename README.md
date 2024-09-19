@@ -21,7 +21,7 @@ Now, let's get down to the rest of the documentation.
 * **[Introduction](https://github.com/BIARES07/The-Hospital-Project/new/main?filename=README.md#introduction)**
 * **[Patient Form](https://github.com/BIARES07/The-Hospital-Project/tree/main#patient-form)**
 * **[Appointment Manager](https://github.com/BIARES07/The-Hospital-Project/tree/main#appointment-manager)**
-* **[Final Notes](https://github.com/BIARES07/The-Hospital-Project/new/main?filename=README.md#final-notes)**
+* **[Final Notes](https://github.com/BIARES07/The-Hospital-Project/tree/main#final-notes)**
  
 
 ## Introduction
