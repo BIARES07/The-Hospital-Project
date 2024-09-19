@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Agendar Cita</title>
+        <link rel="stylesheet" type="text/css" href="style2.css">
+    </head>
+    <body>
+        <!-- Encabezado de la página -->
+        <header>
+            <img id="logo" src="Hospital_Logo.png" alt="imagen">
+            <div class="barra_nav"></div>
+            <div class="titulo_main">Hospital Dr. Jose Ramon Figuera</div>
+            <a href="/Seccion Administracion de citas/LoginAdmin.html" id="cita">
+                <img src="icono.png" alt="Icono de cita"> Login Portal
+              </a>
+              
+        </header>   
+
+        <main>
+           
+            <form id="formulario" action="db.php" method="post">
+                <p id="obligatorio">Campos Obligatorios (*) </p>
+                <label for="nombre">Nombres*</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+
+                <label for="apellido">Apellidos*</label>
+                <input type="text" id="apellido" name="apellido"><br><br>
+
+                <label for="cedula">Cedula*</label>
+                <input type="text" id="cedula" name="cedula"><br><br>
+
+                <label for="telefono">Telefono*</label>
+                <input type="tel" id="telefono" name="telefono"><br><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="fecha">Fecha de nacimiento</label>
+                <input type="date" id="fecha" name="fecha"><br><br>
+
+                <label for="especialidad">Especialidad*</label>
+                <select id="especialidad" name="especialidad">
+                    <option value="none">Elija una opcion</option>
+                    <option value="pediatria">Pediatria</option>
+                    <option value="Consulta general its">Consulta General ITS</option>
+                    <option value="nutricion">Nutricion</option>
+                    <option value="psicologia">Psicologia</option>
+                    <option value="cardiologia">Cardiologia</option>
+                    <option value="ginecologia">Ginecologia</option>
+                    <option value="nino sano">Niño Sano</option>
+                    <option value="planificacion familiar">Planificacion Familiar</option>
+                    <option value="carent">Carent</option>
+                    <option value="aro">ARO</option>
+                    <option value="gastro">Gastro</option>
+                    <option value="prenatal">Prenatal</option>
+
+                </select><br><br>
+
+
+
+
+                <input type="submit" value="Enviar">
+            </form>
+        </main>
+      
+        <footer>
+            <p id="footer">
+                Charallave, Municipio Cristóbal Rojas, Sector Peñuela Ruiz, barrio ajuro entre la calle 7 y 8, Edo. Miranda. 
+                
+            </p>
+
+            <p id="footer2">
+                Charallave, Municipio Cristóbal Rojas,  Edo. Miranda. 
+                
+            </p>
+        </footer>
+        <script src="validar.js"></script>
+    </body>
+</html>
+

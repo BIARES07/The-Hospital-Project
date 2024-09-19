@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+/*implementa flexbox tipo layout a todo el body*/
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+/*añade un background color a "barra_nav" controlando la altura, anchura y posicion*/
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(56, 139, 247);
+    height: 50px;
+}
+
+#cita {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    color: white;   
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+#cita:hover {
+    background-color: #005c99;
+    border: 2px solid #005c99;
+}
+
+#cita:not(:hover) {
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+
+#cita img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(156, 147, 147);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
+main{
+    border: 5px solid rgb(120, 173, 243);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    /* Agregamos transparencia al color de fondo */
+    background-color: rgba(64, 114, 214, 0.712); /* 50% de transparencia */
+}
+
+main p{
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    color: white;   
+    padding: 10px 20px;
+}
+

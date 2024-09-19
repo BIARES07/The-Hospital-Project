@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+/*implementa flexbox tipo layout a todo el body*/
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+/*añade un background color a "barra_nav" controlando la altura, anchura y posicion*/
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(56, 139, 247);
+    height: 50px;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+    margin-left: 3px;
+    margin-top: 10px;
+    
+}
+
+
+.titulo_main {
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: 505px;
+}
+
+/* Estilos para el formulario de inicio de sesión */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+main {
+    width: 300px;
+    margin-left: auto;
+    margin-right: 520px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.377);
+    margin-top: 120px;
+
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 60%;
+    padding: 10px;
+    margin-left: 16%;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+ 
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(156, 147, 147);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000000;
+    font-family: Arial, sans-serif;
+
+
+}
+	
+
+
+
+
+
+
+
+
+
+
